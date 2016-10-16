@@ -1,0 +1,16 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var numeros = 1...100
+for valor in numeros {
+    if valor % 5 == 0 {
+        print (valor, "Bingo !!")
+    } else if valor % 2 == 0 {
+        print (valor, "es par")
+    } else if valor != 0{
+        print (valor,"es impar")
+    } else if valor > 30 && valor < 40 {
+        print (valor,"Viva Swift")
+    }}
+
